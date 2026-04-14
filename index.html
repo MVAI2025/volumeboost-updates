@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VolumeBoost Updates</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0a0f18;
+      --panel: #121a28;
+      --text: #eef5fb;
+      --muted: #a6b4c3;
+      --accent: #59caff;
+      --border: rgba(255, 255, 255, 0.08);
+    }
+    body {
+      margin: 0;
+      padding: 32px;
+      background: radial-gradient(circle at top, #192437 0%, var(--bg) 58%);
+      color: var(--text);
+      font: 15px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+    }
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      background: color-mix(in srgb, var(--panel) 92%, black);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 30px 32px;
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.34);
+    }
+    h1, h2 {
+      margin: 0 0 12px;
+      line-height: 1.15;
+    }
+    h1 { font-size: 34px; }
+    h2 { font-size: 18px; margin-top: 28px; }
+    p, li { color: var(--muted); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul { padding-left: 20px; }
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      color: var(--accent);
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    .card {
+      margin-top: 20px;
+      padding: 18px 20px;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.02);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="eyebrow">VolumeBoost</span>
+    <h1>Direct Download Updates</h1>
+    <p>This site hosts the public beta download, release notes, checksum, and Sparkle appcast for the direct-download version of VolumeBoost.</p>
+
+    <div class="card">
+      <h2>Latest Build</h2>
+      <ul>
+        <li><a href="./VolumeBoost-1.0.0-macOS.zip">Download VolumeBoost 1.0.0</a></li>
+        <li><a href="./VolumeBoost-1.0.0-macOS.zip.sha256">SHA-256 checksum</a></li>
+        <li><a href="./VolumeBoost-1.0.0-macOS.html">Release notes</a></li>
+        <li><a href="./appcast.xml">Sparkle appcast</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Project Notes</h2>
+      <ul>
+        <li><a href="./CHANGELOG.md">Changelog</a></li>
+        <li><a href="./known-issues.md">Known issues</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
