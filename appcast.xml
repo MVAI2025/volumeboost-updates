@@ -3,6 +3,20 @@
     <channel>
         <title>VolumeBoost</title>
         <item>
+            <title>1.0.2</title>
+            <pubDate>Tue, 14 Apr 2026 01:39:30 -0700</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <sparkle:releaseNotesLink>https://mvai2025.github.io/volumeboost-updates/VolumeBoost-1.0.2-macOS.html</sparkle:releaseNotesLink>
+            <enclosure url="https://mvai2025.github.io/volumeboost-updates/VolumeBoost-1.0.2-macOS.zip" length="1507673" type="application/octet-stream" sparkle:edSignature="XoGO7R8XJshw7CUROR6WRkvVhEUS0f4h4d121GCEBV/A/fmUG9Z2MEjD0W2JgyFTTk3Dg3evUwIHRaSWns6+Cg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://mvai2025.github.io/volumeboost-updates/VolumeBoost3-2.delta" sparkle:deltaFrom="2" length="18954" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wG7621KVX4FSkrn+zIuBUViPuifJx15lf2F8Eg6lFIuIvIKNvyMzkPVGDI7IGlNeyyy4u1ImUL+EsYW8cZIuDA=="/>
+                <enclosure url="https://mvai2025.github.io/volumeboost-updates/VolumeBoost3-1.delta" sparkle:deltaFrom="1" length="32590" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IkOTuoafTN/qcdfeJkQItRgjp5qo+XSR6OKsCrXs5Jc/iOHy6J36LnWE7N+HsZkRbY8QHX/Re20wYq1sXuIPBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.1</title>
             <pubDate>Tue, 14 Apr 2026 01:30:34 -0700</pubDate>
             <sparkle:version>2</sparkle:version>

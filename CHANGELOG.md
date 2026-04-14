@@ -4,6 +4,19 @@ All notable changes to VolumeBoost will be documented in this file.
 
 The format follows Keep a Changelog and uses semantic versions for shipped builds.
 
+## [1.0.2] - 2026-04-14
+
+Interaction safety update for the direct-download beta.
+
+### Changed
+
+- Moved `Quit App` out of the primary action row so the main control is just `Start/Stop Boosting`.
+- Grouped `Updates`, `Diagnostics`, and `Quit App` into the smaller centered footer utility row.
+
+### Fixed
+
+- Reduced the chance of accidentally quitting the app while trying to stop boosting.
+
 ## [1.0.1] - 2026-04-14
 
 Polish update for the direct-download beta release track.
