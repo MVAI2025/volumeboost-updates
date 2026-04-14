@@ -3,6 +3,19 @@
     <channel>
         <title>VolumeBoost</title>
         <item>
+            <title>1.0.1</title>
+            <pubDate>Tue, 14 Apr 2026 01:30:34 -0700</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <sparkle:releaseNotesLink>https://mvai2025.github.io/volumeboost-updates/VolumeBoost-1.0.1-macOS.html</sparkle:releaseNotesLink>
+            <enclosure url="https://mvai2025.github.io/volumeboost-updates/VolumeBoost-1.0.1-macOS.zip" length="1507621" type="application/octet-stream" sparkle:edSignature="1a8tTwaIsbWIM4r9Auhpvkag3IG26Z3A9sM3Hpb2QCukYejczckNnux6PFdN3ug+UgAi/odn8gzDd8vutXeTBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://mvai2025.github.io/volumeboost-updates/VolumeBoost2-1.delta" sparkle:deltaFrom="1" length="32826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0UdvFbzTmolfVtx2X2wuZhxm0AMBKpAVX/bJtOKSWcaxML4/CcvM1aBoye6hG73fOBk+t235Z9oAzsOda4s9AA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.0</title>
             <pubDate>Tue, 14 Apr 2026 00:47:53 -0700</pubDate>
             <sparkle:version>1</sparkle:version>

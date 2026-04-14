@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VolumeBoost 1.0.1 Beta</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b1018;
+      --panel: #121926;
+      --text: #eef5fb;
+      --muted: #9cadbd;
+      --accent: #54c7ff;
+      --border: rgba(255, 255, 255, 0.08);
+    }
+    body {
+      margin: 0;
+      padding: 32px;
+      background: radial-gradient(circle at top, #1a2332 0%, var(--bg) 58%);
+      color: var(--text);
+      font: 15px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      background: color-mix(in srgb, var(--panel) 92%, black);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px 30px;
+      box-shadow: 0 18px 48px rgba(0, 0, 0, 0.32);
+    }
+    h1, h2 {
+      margin: 0 0 12px;
+      line-height: 1.15;
+    }
+    h1 { font-size: 32px; }
+    h2 { font-size: 18px; margin-top: 26px; }
+    p, li { color: var(--muted); }
+    ul, ol { padding-left: 20px; }
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      color: var(--accent);
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="eyebrow">VolumeBoost Beta</span>
+    <h1>Version 1.0.1</h1>
+    <p>Polish update for the direct-download beta with live updates, tighter popover UX, and more reliable startup behavior.</p>
+
+    <h2>What’s New</h2>
+    <ul>
+      <li>The updater is now live on the public direct-download track.</li>
+      <li>The app icon and menu bar icon were refreshed to match the approved branding.</li>
+      <li>The menu bar popover now has clearer primary actions and a smaller centered utility footer.</li>
+    </ul>
+
+    <h2>Improvements</h2>
+    <ul>
+      <li>Live boosting startup is more reliable after repeated stop and start cycles.</li>
+      <li>Inline help, update visibility, and footer alignment issues found during beta testing were fixed.</li>
+      <li>Direct-download release artifacts keep a cleaner public file name.</li>
+    </ul>
+
+    <h2>Install</h2>
+    <ol>
+      <li>Download the beta zip.</li>
+      <li>Move <strong>VolumeBoost.app</strong> into <strong>/Applications</strong>.</li>
+      <li>Launch the app and allow system audio access if macOS prompts.</li>
+    </ol>
+
+    <h2>Beta Focus</h2>
+    <ul>
+      <li>Repeated start and stop behavior</li>
+      <li>Output switching and reconnects</li>
+      <li>Sleep and wake recovery</li>
+      <li>Low-volume content from browsers, streaming apps, and local media players</li>
+    </ul>
+
+    <h2>Feedback</h2>
+    <p>If you hit a problem, use <strong>Diagnostics</strong> from the VolumeBoost popover and include the zip with your report.</p>
+  </main>
+</body>
+</html>
