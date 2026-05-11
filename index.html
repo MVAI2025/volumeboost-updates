@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>VolumeBoost Updates</title>
+  <title>VolumeBoost Audio</title>
   <style>
     :root {
       color-scheme: dark;
@@ -55,16 +55,34 @@
       border: 1px solid var(--border);
       background: rgba(255, 255, 255, 0.02);
     }
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 11px 16px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #06111d;
+      font-weight: 700;
+    }
+    .button:hover { text-decoration: none; filter: brightness(1.08); }
+    .small { font-size: 13px; }
   </style>
 </head>
 <body>
   <main>
     <span class="eyebrow">VolumeBoost</span>
-    <h1>Direct Download Updates</h1>
-    <p>This site hosts the public beta download, release notes, checksum, and Sparkle appcast for the direct-download version of VolumeBoost.</p>
+    <h1>VolumeBoost Audio is live on the Mac App Store</h1>
+    <p>VolumeBoost Audio is a lightweight macOS menu bar app that makes quiet audio louder across apps, browsers, videos, speakers, AirPods, headphones, and other connected audio devices.</p>
 
     <div class="card">
-      <h2>Latest Build</h2>
+      <h2>Get VolumeBoost Audio</h2>
+      <p>For most users, the Mac App Store version is the recommended install. Updates are delivered through Apple.</p>
+      <a class="button" href="https://apps.apple.com/us/app/volumeboost-audio/id6766464582?mt=12">Download on the Mac App Store</a>
+    </div>
+
+    <div class="card">
+      <h2>Direct Download Archive</h2>
+      <p class="small">The links below are kept for the earlier direct-download release track. New users should use the Mac App Store version above.</p>
       <ul>
         <li><a href="./VolumeBoost-1.0.2-macOS.zip">Download VolumeBoost 1.0.2</a></li>
         <li><a href="./VolumeBoost-1.0.2-macOS.zip.sha256">SHA-256 checksum</a></li>
